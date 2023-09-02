@@ -1,6 +1,8 @@
 # LED Architectural Machine
 Turn on LEDs in an LED matrix based on what four ultrasonic sensors detect
 
+![](Images/Hardware.jpg)
+
 ### Tutorials: 
 
 https://create.arduino.cc/projecthub/Mukhin/led-architectural-machin-bb67ba?ref=tag&ref_id=ultrasonic&offset=46 
@@ -26,6 +28,9 @@ Complete DIY: https://docs.arduino.cc/built-in-examples/display/RowColumnScannin
 2. Prototype (Ultra sonic sensor document challenge 2 & 3)
    https://giphy.com/gifs/U6SfzJQzJPcGhpMHqy?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=https%3A%2F%2Fcreate.arduino.cc%2F 
 3. Wire ultra-sonic sensor together using the diagrams below
+   
+![](Images/Ultrasonic.png)
+
 4. Solder the LED Matrix
 
 ### How it works: 
@@ -34,6 +39,10 @@ To control a matrix, you connect both its rows and columns to your microcontroll
 #### How to solder: 
 follow the link below for a step-by-step tutorial on creating the above schematic as they follow a very similar schematic that we are using (as seen in the pic below) 
 
+![](Images/wiring.png)
+
 ### Multiplexing:  
 - What is multiplexing: https://www.instructables.com/Multiplexing-with-Arduino-and-the-74HC595/  
-- Tutorial for wiring and coding with our 8x8 matrix: http://www.learnerswings.com/2014/08/simple-arduino-program-to-turn-on-all.html  
+- Tutorial for wiring and coding with our 8x8 matrix: http://www.learnerswings.com/2014/08/simple-arduino-program-to-turn-on-all.html
+
+![](Images/multiplexing.png)
